@@ -22,7 +22,8 @@ function popForm() {
       .setChoices([
         addItem.createChoice(myShuffled[i][0]),
         addItem.createChoice(myShuffled[i][1])
-      ]);
+      ])
+      .setRequired(true);
  
   }
 }
